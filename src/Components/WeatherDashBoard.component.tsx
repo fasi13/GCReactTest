@@ -1,8 +1,8 @@
 import React from "react";
-import TemperatureIcon from "./icons/TemperatureSvg";
-import WindIcon from "./icons/WindSvg";
-import HumidityIcon from "./icons/HumiditySvg";
-import PressureIcon from "./icons/PressureSvg";
+import TemperatureIcon from "../assets/icons/TemperatureSvg";
+import WindIcon from "../assets/icons/WindSvg";
+import HumidityIcon from "../assets/icons/HumiditySvg";
+import PressureIcon from "../assets/icons/PressureSvg";
 import { useSelector } from "react-redux";
 import { WeatherState } from "../redux/Weather/Weather.types";
 import { convertToKmPerHr, toTextualDescription } from "../utils/weather.utils";
