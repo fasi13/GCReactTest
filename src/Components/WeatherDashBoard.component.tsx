@@ -1,8 +1,8 @@
 import React from "react";
-import TemperatureIcon from "../Components/icons/TemperatureIcon";
-import WindIcon from "../Components/icons/WindIcon";
-import HumidityIcon from "./icons/HumidityIcon";
-import PressureIcon from "../Components/icons/PressureIcon";
+import TemperatureIcon from "./icons/TemperatureSvg";
+import WindIcon from "./icons/WindSvg";
+import HumidityIcon from "./icons/HumiditySvg";
+import PressureIcon from "./icons/PressureSvg";
 import { useSelector } from "react-redux";
 import { WeatherState } from "../redux/Weather/Weather.types";
 import { convertToKmPerHr, toTextualDescription } from "../utils/weather.utils";
@@ -48,7 +48,7 @@ const WeatherDashBoard = () => {
               <span>{convertToKmPerHr(data?.weatherData?.wind.speed)}</span>
               <span className="text-4xl">km/hr </span>
             </div>
-            /{" "}
+            |{" "}
             <span className="text-sm">
               {toTextualDescription(data?.weatherData?.wind.deg)}
             </span>
