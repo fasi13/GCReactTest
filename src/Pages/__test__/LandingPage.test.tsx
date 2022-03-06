@@ -16,6 +16,6 @@ describe("<LandingPage/>", () => {
 
   it('should render Landing page "', () => {
     
-    expect(screen.getByText("GCReactTest")).toBeInTheDocument();
+    expect(screen.getByText("Gain Changer React Test")).toBeInTheDocument();
   });
 });
