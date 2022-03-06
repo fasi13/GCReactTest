@@ -6,7 +6,7 @@ const LandingPage = () => {
   return (
     <>
       <div className="pb-5 flex justify-center align-middle text-4xl font-semibold">
-        GCReactTest
+        Gain Changer React Test.
       </div>
       <div className="pb-5 flex justify-center align-middle">
         <CountryList />
