@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="9" failures="0" errors="0" time="4.593">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-03-06T21:49:32" time="1.101" tests="1">
+    <testcase classname=" renders learn react link" name=" renders learn react link" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="countryList Reducer" errors="0" failures="0" skipped="0" timestamp="2022-03-06T21:49:32" time="1.228" tests="2">
+    <testcase classname="countryList Reducer should return the initial state when passed empty action " name="countryList Reducer should return the initial state when passed empty action " time="0.003">
+    </testcase>
+    <testcase classname="countryList Reducer should return the selectedCountry with value state when passed with payload and action " name="countryList Reducer should return the selectedCountry with value state when passed with payload and action " time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="CountryServices" errors="0" failures="0" skipped="0" timestamp="2022-03-06T21:49:32" time="1.544" tests="1">
+    <testcase classname="CountryServices should return country list from the api request &quot;" name="CountryServices should return country list from the api request &quot;" time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="WeatherServices" errors="0" failures="0" skipped="0" timestamp="2022-03-06T21:49:32" time="1.54" tests="1">
+    <testcase classname="WeatherServices should return weather response  &quot;" name="WeatherServices should return weather response  &quot;" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="&lt;LandingPage/&gt;" errors="0" failures="0" skipped="0" timestamp="2022-03-06T21:49:32" time="2.859" tests="1">
+    <testcase classname="&lt;LandingPage/&gt; should render Landing page &quot;" name="&lt;LandingPage/&gt; should render Landing page &quot;" time="0.013">
+    </testcase>
+  </testsuite>
+  <testsuite name="&lt;CountryList/&gt;" errors="0" failures="0" skipped="0" timestamp="2022-03-06T21:49:32" time="2.95" tests="1">
+    <testcase classname="&lt;CountryList/&gt; should render countryList component &quot;" name="&lt;CountryList/&gt; should render countryList component &quot;" time="0.015">
+    </testcase>
+  </testsuite>
+  <testsuite name="&lt;WeatherDashBoard/&gt;" errors="0" failures="0" skipped="0" timestamp="2022-03-06T21:49:32" time="3.002" tests="2">
+    <testcase classname="&lt;WeatherDashBoard/&gt; should render WeatherDashBoard component with out selected country" name="&lt;WeatherDashBoard/&gt; should render WeatherDashBoard component with out selected country" time="0.042">
+    </testcase>
+    <testcase classname="&lt;WeatherDashBoard/&gt; should render list of weather reports" name="&lt;WeatherDashBoard/&gt; should render list of weather reports" time="0.033">
+    </testcase>
+  </testsuite>
+</testsuites>
